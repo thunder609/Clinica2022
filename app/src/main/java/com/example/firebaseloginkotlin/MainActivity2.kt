@@ -1,4 +1,4 @@
-package com.example.firebaseloginkotlin
+gitpackage com.example.firebaseloginkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
