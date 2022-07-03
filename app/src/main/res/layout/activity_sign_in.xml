@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
     tools:context=".SignInActivity">
 
     <LinearLayout
@@ -20,20 +21,34 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="84dp"
+            android:layout_height="80dp"
             android:contentDescription="@string/all"
-            app:srcCompat="@drawable/ic_logo"
+            android:background="@drawable/icoin"
             tools:ignore="VectorDrawableCompat" />
+         <!--   app:srcCompat="@drawable/ic_logo"  -->
+
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/title_active_login"
+            android:text="Clinica Doctor Milagro"
+            android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistema de Autenticacion"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="232dp" />
+
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -46,7 +61,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
-
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu Usuario por favor"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="343dp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
         <EditText
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
@@ -60,7 +83,8 @@
             android:ems="10"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:padding="16dp" />
+            android:padding="16dp"
+/>
 
         <EditText
             android:id="@+id/passwordEditText"
@@ -92,7 +116,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signInAppCompatButton"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/ic_buttom"
             android:paddingLeft="64dp"
@@ -131,5 +155,8 @@
             android:textColor="#ff9900"
             android:textSize="24sp" />
     </LinearLayout>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

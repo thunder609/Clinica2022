@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
     tools:context=".SignUpActivity">
 
     <ImageView
@@ -35,8 +36,10 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:contentDescription="@string/all"
-            app:srcCompat="@drawable/ic_logo"
+            android:background="@drawable/icoin"
             tools:ignore="VectorDrawableCompat" />
+           <!-- app:srcCompat="@drawable/ic_logo" -->
+
 
         <TextView
             android:id="@+id/textView5"
