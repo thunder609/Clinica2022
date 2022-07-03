@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982408251501",
+    "firebase_url": "https://mintic2022clinica-default-rtdb.firebaseio.com",
+    "project_id": "mintic2022clinica",
+    "storage_bucket": "mintic2022clinica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982408251501:android:ee8d45286d265e359e1764",
+        "android_client_info": {
+          "package_name": "com.example.firebaseloginkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982408251501-u399aa8croq60lh64vqpvhklr6at1h03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVStAZ1t6017s06LQzB0hS9wXa-aIWSOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982408251501-u399aa8croq60lh64vqpvhklr6at1h03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
