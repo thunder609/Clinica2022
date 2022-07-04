@@ -13,8 +13,8 @@
         <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_sign_out.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_user.xml" value="0.21" />
-        <entry key="app/src/main/res/layout/activity_account_recovery.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_check_email.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_account_recovery.xml" value="0.536" />
+        <entry key="app/src/main/res/layout/activity_check_email.xml" value="1.0" />
         <entry key="app/src/main/res/layout/activity_delete_account.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.6" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1" />
@@ -35,7 +35,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.4" />
+        <option name="scale" value="0.8800000000000001" />
       </ProjectState>
     </option>
   </component>

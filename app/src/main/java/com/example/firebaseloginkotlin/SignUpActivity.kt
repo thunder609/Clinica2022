@@ -24,7 +24,7 @@ class SignUpActivity : AppCompatActivity() {
         auth = Firebase.auth
 
         binding.signUpButton.setOnClickListener {
-
+            val nname = binding.nameEditText.text.toString()
             val mEmail = binding.emailEditText.text.toString()
             val mPassword = binding.passwordEditText.text.toString()
             val mRepeatPassword = binding.repeatPasswordEditText.text.toString()
@@ -33,7 +33,10 @@ class SignUpActivity : AppCompatActivity() {
                     "(?=.*[-@#$%^&+=])" +     // Al menos 1 carácter especial
                     ".{6,}" +                // Al menos 4 caracteres
                     "$")
-
+            if(nname.isEmpty()){
+                Toast.makeText(this, "Ingrese el Nombre.",
+                    Toast.LENGTH_SHORT).show()
+            }
             if(mEmail.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(mEmail).matches()) {
                 Toast.makeText(this, "Ingrese un email valido.",
                     Toast.LENGTH_SHORT).show()

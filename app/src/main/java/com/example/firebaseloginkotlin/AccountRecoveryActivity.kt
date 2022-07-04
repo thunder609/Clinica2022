@@ -8,6 +8,8 @@ import com.example.firebaseloginkotlin.databinding.ActivityAccountRecoveryBindin
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
+
+
 class AccountRecoveryActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAccountRecoveryBinding
@@ -32,6 +34,12 @@ class AccountRecoveryActivity : AppCompatActivity() {
                     }
                 }
         }
+        binding.backImageView.setOnClickListener {
+            val intent = Intent(this, SignInActivity::class.java)
+            this.startActivity(intent)
+        }
 
     }
+
+
 }
