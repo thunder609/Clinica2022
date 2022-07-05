@@ -37,7 +37,7 @@ class SplashAnimation : AppCompatActivity() {
 
 
             override fun onAnimationEnd(animation: Animator?) {
-                val intent = Intent(applicationContext, SignUpActivity::class.java)
+                val intent = Intent(applicationContext, SignInActivity::class.java)
                 intent.flags=Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 startActivity(intent)
                 finish()
