@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroung"
+    android:background="@drawable/ic_iphone"
     tools:context=".SignUpActivity">
 
     <ImageView
@@ -50,9 +50,11 @@
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="25sp" />
+
     </LinearLayout>
 
     <LinearLayout
+
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,7 +65,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
-
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de Usuario"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="232dp" />
         <EditText
             android:id="@+id/nameEditText"
             android:layout_width="match_parent"
@@ -140,4 +150,8 @@
             android:text="@string/signup"
             android:textColor="@color/white" />
     </LinearLayout>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

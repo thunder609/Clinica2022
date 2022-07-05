@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroung"
+    android:background="@drawable/ic_iphone"
     tools:context=".SignInActivity">
 
     <LinearLayout
@@ -59,17 +59,19 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.248">
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ingresa tu Usuario por favor"
-            tools:layout_editor_absoluteX="162dp"
-            tools:layout_editor_absoluteY="343dp"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="215dp" />
         <EditText
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
@@ -83,8 +85,7 @@
             android:ems="10"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:padding="16dp"
-/>
+            android:padding="16dp" />
 
         <EditText
             android:id="@+id/passwordEditText"
@@ -106,12 +107,12 @@
             android:id="@+id/recoveryAccountTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="32dp"
-            android:layout_marginStart="24dp"
-            android:textSize="16sp"
+            android:gravity="end"
             android:text="@string/forget_password"
-            android:gravity="end" />
+            android:textSize="16sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signInAppCompatButton"

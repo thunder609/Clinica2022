@@ -13,13 +13,13 @@
         <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_sign_out.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_user.xml" value="0.21" />
-        <entry key="app/src/main/res/layout/activity_account_recovery.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_account_recovery.xml" value="0.10714285714285714" />
         <entry key="app/src/main/res/layout/activity_check_email.xml" value="1.0" />
         <entry key="app/src/main/res/layout/activity_delete_account.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.6" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.6" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.15606936416184972" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_animation.xml" value="0.12817028985507245" />
         <entry key="app/src/main/res/layout/activity_update_password.xml" value="0.1" />
